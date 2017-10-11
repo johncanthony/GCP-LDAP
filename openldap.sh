@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #--- install openldap packages ---
-slapd is our openldap server and will need to be configured after install
+#slapd is our openldap server and will need to be configured after install
 apt-get install -y slapd ldap-utils
 
 dpkg-reconfigure slapd
